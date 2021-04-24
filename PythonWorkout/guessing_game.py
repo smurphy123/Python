@@ -1,22 +1,21 @@
 import random
 
 def guessing_game():
-    magic_num = random.randint(0,101)
+    magic_num = random.randint(0,100)
     correct_guess = False
 
-    guess = input("Guess a number between 0 and 100: ")
-    user_guess = int(guess)
+    user_guess = int(input("Guess a number between 0 and 100: "))
 
     while(correct_guess == False):
 
         if(user_guess > magic_num):
             print("Your guess is too high. Ty again.")
-            guess = input("New guess: ")
-            user_guess = int(guess)
+            user_guess = int(input("New guess: "))
+
         elif (user_guess < magic_num): 
             print("Your guess is too low. Try again.")
-            guess = input("New guess: ")
-            user_guess = int(guess)
+            user_guess = int(input("New guess: "))
+
         else:
             correct_guess = True
 
