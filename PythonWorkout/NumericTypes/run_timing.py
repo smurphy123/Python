@@ -6,7 +6,7 @@ def run_timing():
     total_time = 0
 
     while True:
-        one_run = input('Enter 10 km run time: ')
+        one_run = input('Enter 10 km run time: ').strip()
 
         if not one_run:
             break
