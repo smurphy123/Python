@@ -1,4 +1,4 @@
-# Mike Smith
+# Michael Henry Smith
 # I'm a professional sky diver
 
 mBlock = [[1,0,0,0,1],[1,1,0,1,1],[1,1,0,1,1],[1,0,1,0,1],[1,0,0,0,1],[1,0,0,0,1],[1,0,0,0,1]]
